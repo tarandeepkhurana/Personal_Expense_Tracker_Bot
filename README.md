@@ -20,6 +20,24 @@ A smart financial assistant that helps you track your expenses, analyze spending
 
 ---
 
+## Technologies Used
+
+| Layer / Component       | Technology / Tool                 | Purpose / Description                                         |
+|------------------------|----------------------------------|---------------------------------------------------------------|
+| Frontend               | Streamlit                        | Web app UI to collect user input and display expense summary |
+| Backend                | FastAPI                          | API server to handle requests and connect to the LLM         |
+| Language Model         | Google Gemini 2.5 Pro via LangChain | Summarization and financial analysis of user expenses       |
+| Prompt Management      | LangChain PromptTemplate         | Structure prompts for the LLM                                 |
+| Output Parsing         | LangChain StrOutputParser        | Convert LLM output into usable text                           |
+| Containerization       | Docker & Docker Compose          | Package backend and frontend into separate containers        |
+| Deployment             | Render                           | Host and serve both backend and frontend                     |
+| Environment Management | python-dotenv                    | Manage API keys and environment variables                    |
+| Programming Language   | Python 3.12                      | Main development language                                     |
+| HTTP Requests          | Requests library                  | Communicate between frontend and backend                     |
+| Dependency Management  | pip / requirements.txt           | Install required Python packages                              |
+
+---
+
 ## Deployment
 - Backend and frontend are separately dockerized, ready for deployment on platforms like Render.
 - Make sure to set the GOOGLE_API_KEY environment variable on the deployed platform.
