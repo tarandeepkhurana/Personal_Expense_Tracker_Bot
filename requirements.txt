@@ -1,0 +1,16 @@
+#LangChain Core
+langchain
+langchain-core
+langchain-community
+
+#Google Gemini (PaLM) Integration
+langchain-google-genai
+google-generativeai
+
+#Enviornment Variable Management
+python-dotenv
+
+#Other utilities
+fastapi
+streamlit
+uvicorn

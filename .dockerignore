@@ -1,0 +1,27 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files (don't expose secrets)
+.env
+
+# Git files
+.git
+.gitignore
+
+# Local virtual environments
+expense_env/
+
+*.egg-info/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
