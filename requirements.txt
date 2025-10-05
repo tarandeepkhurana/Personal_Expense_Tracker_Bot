@@ -11,6 +11,12 @@ google-generativeai
 python-dotenv
 
 #Other utilities
-fastapi
-streamlit
-uvicorn
+fastapi      #Backend
+streamlit    #Frontend
+uvicorn      #FastAPI dependency
+pypdf        #PDF Parsing
+matplotlib   #Plotting Charts
+seaborn      #Plotting Charts
+python-multipart  #FastAPI dependency
+chromadb     #For storing expense summary embeddings
+langchain-chroma
